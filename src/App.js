@@ -17,7 +17,7 @@ function App() {
       <Header />
       <Routes>
         <Route path="/" exact element={<Navigate replace to="/user/12" />} />
-        <Route path="/user/:id/" element={<Home />} />
+        <Route path="/user/:id" element={<Home />} />
         <Route path="*" element={<Error />} />
       </Routes>
       <Sidebar />

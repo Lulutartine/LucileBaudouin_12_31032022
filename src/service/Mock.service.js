@@ -11,7 +11,7 @@ export class Mock {
     this.main = USER_MAIN_DATA;
     this.activity = USER_ACTIVITY;
     this.average = USER_AVERAGE_SESSIONS;
-    this.perfomrance = USER_PERFORMANCE;
+    this.performance = USER_PERFORMANCE;
   }
   async getMainData(id) {
     const userData = this.main.find((user) => user.id === Number(id));
@@ -33,9 +33,9 @@ export class Mock {
   }
 
   async getUserPerformance(userId) {
-    const perfomranceData = this.perfomrance.find((user) => {
+    const performanceData = this.performance.find((user) => {
       return user.userId === Number(userId);
     });
-    return perfomranceData;
+    return performanceData;
   }
 }
