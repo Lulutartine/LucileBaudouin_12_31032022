@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { Navigate, useParams } from 'react-router';
 
-import dataMocked from '../service/data-mocked';
 import { service } from '../service/Service'
 
 import Hello from '../components/Hello';
