@@ -1,4 +1,5 @@
 import { Mock } from './Mock.service';
+import { Api } from './Api.service';
 
 class Service {
     constructor(origin) {
