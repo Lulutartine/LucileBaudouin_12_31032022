@@ -13,7 +13,7 @@ import {
 import BlackPoint from './../../assets/images/BlackPoint.svg';
 import RedPoint from './../../assets/images/RedPoint.svg';
   
-/*
+/**
 * Renders the tooltip (kg/kCal) information when user hovers on barchart
 * @function CustomTooltip
 * @param { boolean } active: inital value false / becomes true when hover on barchart
@@ -45,7 +45,7 @@ const CustomTooltip = ({ active, payload }) => {
     return null;
 };
 
-/*
+/**
 * Renders Activities BarChart with Weight & Calories burned
 * @function Activity
 * @param { Object } activity

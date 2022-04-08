@@ -7,11 +7,11 @@ import {
     ResponsiveContainer,
   } from 'recharts';
 
-/*
+/**
 * Renders kinds transfomed used in Perfomance function
 * @function TransformKind
 * @param { String[] } tickItem
-* @returns
+* @returns { JSX }
 */
 const TransformKind = (tickItem) => {
     const Kind = [
@@ -26,7 +26,7 @@ const TransformKind = (tickItem) => {
     return Kind[tickItem - 1];
 }
 
-/*
+/**
  * Renders Performance Radar chart- SimpleRadarChart (Recharts)
  * @function
  * @param { Object } Performance

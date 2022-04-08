@@ -12,7 +12,6 @@ import Aside from '../components/layout/Aside';
  * @param { Integer } props id: used for route
  * @returns { JSX }
  */
-
 const Home = () => {
     // get id from url
     const userId = useParams().id;

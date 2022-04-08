@@ -8,7 +8,7 @@ import {
     ResponsiveContainer,
   } from 'recharts';
 
-/*
+/**
 * * Renders the tooltip (minutes) information when user hovers on the line chart
 * @function CustomTooltip
 * @param { boolean } active: inital value false / becomes true when hover on linechart
@@ -34,7 +34,7 @@ const CustomTooltip = ({ active, payload }) => {
     return null;
 }
 
-/*
+/**
 * Renders Average Sessions Line Chart
 * @function Average
 * @param { Object } average

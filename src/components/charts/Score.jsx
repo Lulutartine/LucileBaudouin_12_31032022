@@ -1,7 +1,7 @@
 import React from 'react';
 import { RadialBar, RadialBarChart, ResponsiveContainer } from 'recharts';
 
-/*
+/**
  * Renders the user's Score on a RadialBarChart (Recharts)
  * @function Score
  * @param { Number } scoreData: users daily score

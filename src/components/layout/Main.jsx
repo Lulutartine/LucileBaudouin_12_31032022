@@ -1,5 +1,6 @@
+// React
 import React from 'react';
-
+// Components
 import Activity from '../charts/Activity';
 import Average from '../charts/Average';
 import Performance from '../charts/Performance';

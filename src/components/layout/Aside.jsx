@@ -1,7 +1,8 @@
+// React
 import React from 'react';
-
+// Component
 import Analytics from '../Analytics';
-
+// Tools
 import fireIcon from './../../assets/images/fire.svg';
 import meatIcon from './../../assets/images/meat.svg';
 import appleIcon from './../../assets/images/apple.svg';
