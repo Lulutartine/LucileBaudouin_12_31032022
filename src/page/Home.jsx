@@ -1,8 +1,9 @@
+// React
 import React, { useEffect, useState } from 'react';
 import { Navigate, useParams } from 'react-router';
-
+// Service
 import { service } from '../service/Service'
-
+// Components
 import Hello from '../components/Hello';
 import Loader from '../components/Loader';
 import Main from '../components/layout/Main';

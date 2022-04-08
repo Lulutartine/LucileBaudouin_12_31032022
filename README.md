@@ -14,7 +14,7 @@
  - Clone the Backend API on your computer:
     git clone https://github.com/OpenClassrooms-Student-Center/P9-front-end-dashboard.git
 
- - Install the packages/dependencies : yarn install
+ - Install the dependencies : yarn install
 
  - Run the Backend Api, which will then listen on port 3000 by default : yarn start
 
